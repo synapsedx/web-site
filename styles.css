@@ -630,6 +630,13 @@ button, input, textarea {
     align-items: center;
 }
 
+.about-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-xl);
+}
+
 .about-card {
     width: 100%;
     max-width: 400px;
@@ -675,6 +682,97 @@ button, input, textarea {
 
 .about-card-inner p {
     opacity: 0.9;
+}
+
+/* ===================================
+   Product Highlight Section
+   =================================== */
+.product-highlight {
+    padding: 6rem 0;
+    background: linear-gradient(135deg, var(--gray-50) 0%, var(--white) 100%);
+}
+
+.product-highlight-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.product-highlight-text {
+    max-width: 540px;
+}
+
+.product-highlight-text h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--gray-900);
+    margin-bottom: 1.5rem;
+}
+
+.product-highlight-text .highlight-lead {
+    font-size: 1.25rem;
+    color: var(--gray-700);
+    margin-bottom: 0.25rem;
+}
+
+.product-highlight-text .highlight-lead strong {
+    color: var(--primary);
+    font-weight: 700;
+}
+
+.product-highlight-text .highlight-emphasis {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--gray-900);
+    margin-bottom: 1.5rem;
+}
+
+.product-highlight-text p {
+    font-size: 1.0625rem;
+    color: var(--gray-600);
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+}
+
+.product-highlight-text h3 {
+    font-size: 1.375rem;
+    font-weight: 700;
+    color: var(--gray-900);
+    margin-bottom: 0.75rem;
+}
+
+.product-highlight-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-highlight-image img {
+    max-width: 80%;
+    height: auto;
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-xl);
+}
+
+@media (max-width: 768px) {
+    .product-highlight-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .product-highlight-text {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .product-highlight-text h2 {
+        font-size: 2rem;
+    }
+
+    .product-highlight-image {
+        order: -1;
+    }
 }
 
 /* ===================================
