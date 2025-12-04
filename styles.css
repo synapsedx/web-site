@@ -219,6 +219,12 @@ button, input, textarea {
     font-size: 1.5rem;
     font-weight: 800;
     display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    height: 40px;
+    width: auto;
 }
 
 .logo-synapse {
@@ -1159,6 +1165,8 @@ button, input, textarea {
 
 .page-hero-content {
     max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .page-hero h1 {
