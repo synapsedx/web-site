@@ -1275,6 +1275,28 @@ button, input, textarea {
     text-align: left;
 }
 
+.page-hero-content .highlight-lead {
+    font-size: 1.375rem;
+    color: var(--gray-700);
+    margin-bottom: 0.25rem;
+}
+
+.page-hero-content .highlight-lead strong {
+    color: var(--primary);
+    font-weight: 700;
+}
+
+.page-hero-content .highlight-emphasis {
+    font-size: 1.375rem;
+    font-weight: 600;
+    color: var(--gray-900);
+    margin-bottom: 1rem;
+}
+
+.page-hero-content .hero-subtitle {
+    font-size: 1.125rem;
+}
+
 .page-hero-image {
     text-align: center;
 }
@@ -1343,6 +1365,54 @@ button, input, textarea {
 .feature-item svg {
     color: var(--success);
     flex-shrink: 0;
+}
+
+/* Process Steps */
+.process-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.process-step {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.step-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.step-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    background: var(--gradient-primary);
+    color: var(--white);
+    font-size: 0.875rem;
+    font-weight: 600;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.step-header h4 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--gray-900);
+    margin: 0;
+}
+
+.process-step > p {
+    color: var(--gray-600);
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    margin: 0;
+    padding-left: 2.5rem;
 }
 
 .overview-visual {
@@ -1658,7 +1728,7 @@ button, input, textarea {
 }
 
 .process-visual img {
-    max-width: 100%;
+    max-width: 85%;
     height: auto;
     border-radius: var(--radius-xl);
     box-shadow: var(--shadow-lg);
