@@ -708,6 +708,8 @@ button, input, textarea {
 .blog-image {
     aspect-ratio: 16/10;
     background: linear-gradient(135deg, var(--gray-100) 0%, var(--gray-200) 100%);
+    overflow: hidden;
+    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
 }
 
 .blog-placeholder {
