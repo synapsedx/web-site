@@ -1734,6 +1734,78 @@ button, input, textarea {
     box-shadow: var(--shadow-lg);
 }
 
+/* Stacked Solution Layout */
+.solution-layout-stacked {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.solution-layout-stacked .process-visual {
+    width: 100%;
+    text-align: center;
+}
+
+.solution-layout-stacked .process-visual img {
+    max-width: 100%;
+}
+
+.overview-content-full {
+    width: 100%;
+    text-align: center;
+}
+
+.overview-content-full h3 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--gray-900);
+    margin-bottom: 1rem;
+}
+
+.overview-content-full .lead {
+    max-width: 800px;
+    margin: 0 auto 2rem;
+}
+
+/* Horizontal Process Steps */
+.process-steps-horizontal {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+}
+
+.process-step-box {
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-lg);
+    padding: 1.5rem;
+    text-align: left;
+    transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.process-step-box:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+}
+
+.process-step-box .step-header {
+    margin-bottom: 0.75rem;
+}
+
+.process-step-box > p {
+    padding-left: 0;
+    font-size: 0.875rem;
+}
+
+.process-step-box a {
+    color: var(--primary);
+    font-weight: 500;
+}
+
+.process-step-box a:hover {
+    text-decoration: underline;
+}
+
 /* Use Cases Section */
 .use-cases {
     padding: 6rem 0;
@@ -2609,6 +2681,10 @@ button, input, textarea {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .process-steps-horizontal {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .mission-grid {
         grid-template-columns: 1fr;
         gap: 3rem;
@@ -2685,6 +2761,10 @@ button, input, textarea {
     }
 
     .solution-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .process-steps-horizontal {
         grid-template-columns: 1fr;
     }
 

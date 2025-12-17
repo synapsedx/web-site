@@ -138,36 +138,34 @@
                 <h2>From Chaos to Controlled Workflows</h2>
                 <p>Bundle Flow transforms scattered document collection into a structured, auditable process</p>
             </div>
-            <div class="solution-layout">
+            <div class="solution-layout solution-layout-stacked">
                 <div class="process-visual">
                     <img src="images/bundle-flow/process.png" alt="From Reception to Completion Process">
                 </div>
-                <div class="overview-content">
-                    <h3>From Reception to Completion</h3>
-                    <p class="lead">Bundle Flow goes beyond simple document storage: it orchestrates the entire collection workflow with role-based permissions and validation controls.</p>
-                    <div class="process-steps">
-                        <div class="process-step">
+                <div class="overview-content overview-content-full">
+                    <div class="process-steps process-steps-horizontal">
+                        <div class="process-step process-step-box">
                             <div class="step-header">
                                 <span class="step-number">1</span>
                                 <h4>Receive</h4>
                             </div>
                             <p>Bundles arrive via integration, automatically creating tasks in the triage pool. No document is ever lost.</p>
                         </div>
-                        <div class="process-step">
+                        <div class="process-step process-step-box">
                             <div class="step-header">
                                 <span class="step-number">2</span>
                                 <h4>Triage</h4>
                             </div>
-                            <p>Users with BF-SORT permission claim tasks and associate bundles with the appropriate checklist.</p>
+                            <p><a href="postmaster.html">Postmaster</a> claim tasks and associate bundles with the appropriate checklist.</p>
                         </div>
-                        <div class="process-step">
+                        <div class="process-step process-step-box">
                             <div class="step-header">
                                 <span class="step-number">3</span>
                                 <h4>Associate</h4>
                             </div>
-                            <p>Bundle items are linked to checklist items or grouped together, ensuring every document has a purpose.</p>
+                            <p><a href="postmaster.html">Postmaster</a> links bundle content to checklist items, ensuring every document has a purpose.</p>
                         </div>
-                        <div class="process-step">
+                        <div class="process-step process-step-box">
                             <div class="step-header">
                                 <span class="step-number">4</span>
                                 <h4>Validate</h4>
@@ -175,47 +173,6 @@
                             <p>Control checklists ensure document quality before marking items as valid and completing the workflow.</p>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Technology Section -->
-    <section class="technology">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-badge">Technology</span>
-                <h2>Role-Based Permission Architecture</h2>
-                <p>A flexible permission system ensuring the right people do the right tasks</p>
-            </div>
-            <div class="tech-grid">
-                <div class="tech-card tech-main">
-                    <div class="tech-icon">
-                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
-                    </div>
-                    <h3>BF-CONFIG</h3>
-                    <p>The administrator role that manages the entire system: item library, checklist templates, email templates, permission assignments, and configuration versioning.</p>
-                </div>
-                <div class="tech-card">
-                    <div class="tech-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
-                    </div>
-                    <h3>BF-SORT</h3>
-                    <p>Claim tasks from the triage pool and associate incoming bundles with the appropriate checklist.</p>
-                </div>
-                <div class="tech-card">
-                    <div class="tech-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/></svg>
-                    </div>
-                    <h3>BF-MANAGE</h3>
-                    <p>Associate bundle items with checklist items, create bundle item groups, and manage document links.</p>
-                </div>
-                <div class="tech-card">
-                    <div class="tech-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-                    </div>
-                    <h3>BF-VALIDATE</h3>
-                    <p>Complete control checklists and set validation status (Valid, Rejected, Incomplete) on document links.</p>
                 </div>
             </div>
         </div>
@@ -232,7 +189,7 @@
             <div class="use-cases-grid">
                 <div class="use-case-card">
                     <div class="use-case-image">
-                        <img src="images/bundle-flow/usecase-credit.png" alt="Credit Application Processing">
+                        <img src="images/bundle-flow/usecase-credit.jpeg" alt="Credit Application Processing">
                     </div>
                     <div class="use-case-content">
                         <h3>Credit Application Processing</h3>
@@ -241,7 +198,7 @@
                 </div>
                 <div class="use-case-card">
                     <div class="use-case-image">
-                        <img src="images/bundle-flow/usecase-supplier.png" alt="Supplier Onboarding">
+                        <img src="images/bundle-flow/usecase-supplier.jpg" alt="Supplier Onboarding">
                     </div>
                     <div class="use-case-content">
                         <h3>Supplier Onboarding</h3>
@@ -250,7 +207,7 @@
                 </div>
                 <div class="use-case-card">
                     <div class="use-case-image">
-                        <img src="images/bundle-flow/usecase-insurance.png" alt="Insurance Claims">
+                        <img src="images/bundle-flow/usecase-insurance.jpg" alt="Insurance Claims">
                     </div>
                     <div class="use-case-content">
                         <h3>Insurance Claims Processing</h3>
@@ -259,7 +216,7 @@
                 </div>
                 <div class="use-case-card">
                     <div class="use-case-image">
-                        <img src="images/bundle-flow/usecase-compliance.png" alt="Regulatory Compliance">
+                        <img src="images/bundle-flow/usecase-compliance.jpg" alt="Regulatory Compliance">
                     </div>
                     <div class="use-case-content">
                         <h3>Regulatory Compliance</h3>
