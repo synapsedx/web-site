@@ -280,6 +280,33 @@ button, input, textarea {
     color: var(--primary);
 }
 
+.lang-switcher {
+    display: flex;
+    align-items: center;
+    gap: 0.375rem;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+.lang-switcher a {
+    color: var(--gray-400);
+    transition: color var(--transition);
+}
+
+.lang-switcher a:hover {
+    color: var(--primary);
+}
+
+.lang-active {
+    color: var(--gray-900);
+}
+
+.lang-divider {
+    color: var(--gray-300);
+    font-weight: 400;
+}
+
 .mobile-menu-btn {
     display: none;
     flex-direction: column;
