@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Homepage EN -->
+  <url>
+    <loc>https://synapsedx.com/</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://synapsedx.com/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://synapsedx.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://synapsedx.com/"/>
+  </url>
+
+  <!-- Homepage FR -->
+  <url>
+    <loc>https://synapsedx.com/fr/</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://synapsedx.com/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://synapsedx.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://synapsedx.com/"/>
+  </url>
+
+  <!-- Postmaster EN -->
+  <url>
+    <loc>https://synapsedx.com/postmaster</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://synapsedx.com/postmaster"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://synapsedx.com/fr/postmaster"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://synapsedx.com/postmaster"/>
+  </url>
+
+  <!-- Postmaster FR -->
+  <url>
+    <loc>https://synapsedx.com/fr/postmaster</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://synapsedx.com/postmaster"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://synapsedx.com/fr/postmaster"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://synapsedx.com/postmaster"/>
+  </url>
+
+  <!-- Bundle Flow EN -->
+  <url>
+    <loc>https://synapsedx.com/bundle-flow</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://synapsedx.com/bundle-flow"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://synapsedx.com/fr/bundle-flow"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://synapsedx.com/bundle-flow"/>
+  </url>
+
+  <!-- Bundle Flow FR -->
+  <url>
+    <loc>https://synapsedx.com/fr/bundle-flow</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://synapsedx.com/bundle-flow"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://synapsedx.com/fr/bundle-flow"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://synapsedx.com/bundle-flow"/>
+  </url>
+
+  <!-- About EN -->
+  <url>
+    <loc>https://synapsedx.com/about</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://synapsedx.com/about"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://synapsedx.com/fr/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://synapsedx.com/about"/>
+  </url>
+
+  <!-- About FR -->
+  <url>
+    <loc>https://synapsedx.com/fr/about</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://synapsedx.com/about"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://synapsedx.com/fr/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://synapsedx.com/about"/>
+  </url>
+
+  <!-- Blog listing -->
+  <url>
+    <loc>https://synapsedx.com/blog</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog: Synapse Postmaster is an A.I. Agent -->
+  <url>
+    <loc>https://synapsedx.com/blog/postmaster-agent</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog: From Classical RAG to Question-Embedding Indexing -->
+  <url>
+    <loc>https://synapsedx.com/blog/rag-question-embedding</loc>
+    <lastmod>2025-10-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog: The Illusion of Intelligence: Why LLMs Still Can't Reason -->
+  <url>
+    <loc>https://synapsedx.com/blog/llm-reasoning</loc>
+    <lastmod>2025-06-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog: The Power of P -->
+  <url>
+    <loc>https://synapsedx.com/blog/power-of-p</loc>
+    <lastmod>2025-01-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog: Should AI Ranking Matter? -->
+  <url>
+    <loc>https://synapsedx.com/blog/ai-ranking</loc>
+    <lastmod>2024-10-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog: A.I. vs Deterministic Algorithms -->
+  <url>
+    <loc>https://synapsedx.com/blog/ai-vs-deterministic</loc>
+    <lastmod>2024-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog: The Journey of SynapseDX -->
+  <url>
+    <loc>https://synapsedx.com/blog/journey-of-synapsedx</loc>
+    <lastmod>2024-06-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
