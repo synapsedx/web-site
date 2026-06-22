@@ -2845,3 +2845,14 @@ button, input, textarea {
         font-size: 1.25rem;
     }
 }
+
+/* ===================================
+   Honeypot (anti-spam)
+   =================================== */
+.hp-field {
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}

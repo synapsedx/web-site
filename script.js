@@ -83,28 +83,50 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // ===================================
 const contactForm = document.getElementById('contactForm');
 
-contactForm?.addEventListener('submit', function(e) {
+contactForm?.addEventListener('submit', async function(e) {
     e.preventDefault();
 
-    const formData = new FormData(this);
-    const data = Object.fromEntries(formData);
+    // Honeypot: if the hidden field is filled, a bot submitted — bail silently
+    const honeypot = this.querySelector('input[name="website"]');
+    if (honeypot && honeypot.value !== '') {
+        return;
+    }
 
-    // Show success message (in production, this would send to a server)
+    const isFr = document.documentElement.lang === 'fr';
     const btn = this.querySelector('button[type="submit"]');
     const originalText = btn.textContent;
 
-    btn.textContent = 'Message Sent!';
-    btn.style.background = 'var(--success)';
+    // Loading state
+    btn.textContent = isFr ? 'Envoi…' : 'Sending…';
     btn.disabled = true;
+    btn.style.background = '';
 
-    setTimeout(() => {
-        btn.textContent = originalText;
-        btn.style.background = '';
+    try {
+        const response = await fetch('/contact.php', {
+            method: 'POST',
+            body: new FormData(this),
+        });
+        const result = await response.json();
+
+        if (result.ok) {
+            btn.textContent = isFr ? 'Message envoyé !' : 'Message Sent!';
+            btn.style.background = 'var(--success)';
+            setTimeout(() => {
+                btn.textContent = originalText;
+                btn.style.background = '';
+                btn.disabled = false;
+                this.reset();
+            }, 3000);
+        } else {
+            btn.textContent = isFr ? 'Réessayer' : 'Try again';
+            btn.style.background = 'var(--error)';
+            btn.disabled = false;
+        }
+    } catch (_) {
+        btn.textContent = isFr ? 'Réessayer' : 'Try again';
+        btn.style.background = 'var(--error)';
         btn.disabled = false;
-        this.reset();
-    }, 3000);
-
-    console.log('Form submitted:', data);
+    }
 });
 
 // ===================================
