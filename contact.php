@@ -56,11 +56,11 @@ $body .= "Company: " . ($company !== '' ? $company : '—') . "\n";
 $body .= "\n";
 $body .= "Message:\n" . $message . "\n";
 
-$headers  = "From: " . FROM . "\r\n";
-$headers .= "Reply-To: " . $email . "\r\n";
-$headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
+$headers  = "From: " . FROM . "\n";
+$headers .= "Reply-To: " . $email . "\n";
+$headers .= "Content-Type: text/plain; charset=UTF-8\n";
 
-$sent = mail(RECIPIENT, $subject, $body, $headers);
+$sent = mail(RECIPIENT, $subject, $body, $headers, '-f ' . FROM);
 
 if (!$sent) {
     http_response_code(500);
