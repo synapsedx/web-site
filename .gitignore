@@ -1,3 +1,6 @@
 .work
 .idea
 .claude
+/.superpowers/
+mail_config.php
+.DS_Store
