@@ -60,7 +60,7 @@ $headers  = "From: " . FROM . "\n";
 $headers .= "Reply-To: " . $email . "\n";
 $headers .= "Content-Type: text/plain; charset=UTF-8\n";
 
-$sent = mail(RECIPIENT, $subject, $body, $headers, '-f ' . FROM);
+$sent = mail(RECIPIENT, $subject, $body, $headers);
 
 if (!$sent) {
     http_response_code(500);
