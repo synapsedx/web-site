@@ -1,7 +1,7 @@
 <?php
 
-const RECIPIENT = 'contact@ps.synapsedx.com';
-const FROM      = 'noreply@synapsedx.com';
+const RECIPIENT = 'contact@crm.synapsedx.com';
+const FROM      = 'noreply.website@synapsedx.com';
 
 header('Content-Type: application/json');
 
